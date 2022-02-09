@@ -1,0 +1,28 @@
+it is used to create an virtual environment if in case all the modules of the python chages.
+it creates all a new python interpreter in new folder which we can share with any one and they can run it
+
+#pip install virtualenv
+this command will install virtual environment
+
+#virtualenv
+this command will give all the options in virtual environment
+
+#virtual [nameofthe Environment]
+to create an environment, which contains a brand new python.
+
+by double clicking in the activate we can activate it or we can use a command
+#.\nameofthefolder\Scripts\activate
+
+if any error we open the same folder the and run the command as administrator
+#set-executionpolicy remotesigned
+ or
+ https://stackoverflow.com/questions/48911582/virtualenv-to-path-on-windows-10
+
+#deactivate
+this command will deactivate the virtual environment.
+
+#pip freeze > requirements.txt
+will give all the installed modules in the requirements.txt
+
+
+#virtualenv --system-site-pakages [name of the folder]
